@@ -68,7 +68,7 @@ S4 is front of clutch
 
 ## RPM sensors
 
-TACH = Crankshaft magnet senor ( 2 magnets per rotation)
+TACH = Crankshaft magnet senor ( 2 magnets per rotation) OR (Dynatek 4000-HDTF HIGH ENERGY IGNITION SYSTEM)
 
 R_WHEEL = Output shaft backside of gear box
 
@@ -82,27 +82,69 @@ Analog 1 = Fuel pressure
 
 Analog 2 = G-force
 
-Analog 3 = ??
+Analog 3 = Oil Pressure
 
-Analog 4 = Gas spjeld
+Analog 4 = Gas spjeld (pot-meter on gas handle)
+
+(Expansion 1 = Analog 5-8)
 
 Analog 5 = Temperature front
 
 Analog 6 = Temperature back
 
-Analog 7 = ?
+Analog 7 = Spare Temp K-sensors in EGT Box
 
-Analog 8 = ?
+Analog 8 = Spare Temp K-sensors in EGT Box
+
+(Expansion 2 = Analog 9-12) NOT MOUNTED
+
 
 ## Switches
 
-Switch 1 = ?
+Switch 1 = Gear shift
 
 Switch 2 = ?
 
 Switch 3 = ?
 
 Switch 4 = ?
+
+## Sensors
+
+Fuel Pressure Sensor DPS-270 (0-270 PSI):
+
+0 PSI = 0,5V
+
+30 PSI = 1V
+
+60 PSI = 1,5V
+
+90 PSI = 2V  ….
+
+270 PSI = 5V
+
+Oil pressure Sensor DPS-90 (0-90 PSI):
+
+0 PSI = 0,5v
+
+10 PSI = 1v
+
+20 PSI = 1,5v
+
+30 PSI = 2v   ….
+
+90 PSU = 5v
+
+ACCELEROMETER DA4G-1 – G-FORCE MEASSURE: 
+0 - 4G range
+1G = GRAVITY
+1 VOLT + 1 VOLT PR. G-FORCE. So 2 Volt is equl to 1G
+
+DEGT-1 FOR ”EGT” EXHAUST GAS TEMPERATURE MONITOR OPTION:
+MEASSURE ON ANALOG 5-8 ON EXPANSION “1” BOX AND ANALOG 9-12 EXPANSION “2” BOX
+1 THERMOCOUPLE AMP BOX + CABLES + ”K” THERMOCOUPLES
+MIN. RANGE TO MAX. RANGE TEMPERATURE ???
+VOLT VS. TEMP ???
 
 
 
